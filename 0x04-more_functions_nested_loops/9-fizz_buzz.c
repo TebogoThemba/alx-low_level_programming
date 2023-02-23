@@ -22,13 +22,13 @@ int main(void)
 		else if (i % 3 == 0)
 			printf("Fizz");
 		else if (i % 5 == 0)
-			Printf("Buzz");
+			printf("Buzz");
 		else
 			printf("%i", i);
 		if (i < 100)
 			printf(" ");
 	}
-	_putchar("\n");
+	printf("\n");
 	
 	return (0);
 }

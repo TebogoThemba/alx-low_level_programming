@@ -3,6 +3,7 @@
 /**
  * print_number - print an integer
  * @n: .input integer parameter
+ *
  * owned by Black_Wolf
 */
 
@@ -13,7 +14,7 @@ void print_number(int n)
 	if (n < 0)
 	{
 		_putchar(45);
-		i = -i
+		i = -i;
 	}
 	if (i / 10)
 	{

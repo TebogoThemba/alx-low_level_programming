@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_number - print 0123456789
- * owned by Tebogo Themba
- * Return: void
+* print_numbers - print 0123456789
+* owned by Black_Wolf
+* Return: void
 */
 
 void print_numbers(void)

@@ -2,7 +2,7 @@
 
 /**
  * check - checks for the square root
- * @s:int
+ * @a:int
  * @b:int
  * Return:int
 */

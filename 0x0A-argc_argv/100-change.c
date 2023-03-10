@@ -6,9 +6,8 @@
  * for an amount of money
  * @argc: argument count
  * @argv: arguments
- * return: 0
-*/
-
+ * Return: 0
+ */
 int main(int argc, char **argv)
 {
 	int total, count;
@@ -46,6 +45,7 @@ int main(int argc, char **argv)
 		printf("Error\n");
 		return (1);
 	}
+
 	printf("%d\n", count);
 	return (0);
 }

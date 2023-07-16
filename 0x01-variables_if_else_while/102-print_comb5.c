@@ -8,22 +8,22 @@
 */
 int main(void)
 {
-	int x;
-	int y;
+	int num1;
+	int ynum2;
 
-	for (x = 0; x < 100; x++)
+	for (num1 = 0; num1 < 100; num1++)
 	{
-		for (y = 0; y < 100; y++)
+		for (num2 = 0; num2 < 100; num2++)
 		{
-			if (x < y)
+			if (num1 < num2)
 			{
-				putchar((x / 10) + 48);
-				putchar((x % 10) + 48);
+				putchar((num1 / 10) + 48);
+				putchar((num1 % 10) + 48);
 				putchar(' ');
-				putchar((y / 10) + 48);
-				putchar((y % 10) + 48);
+				putchar((num2 / 10) + 48);
+				putchar((num2 % 10) + 48);
 
-				if (x != 98 || y != 99)
+				if (num1 != 98 || mum2 != 99)
 				{
 					putchar(',');
 					putchar(' ');
